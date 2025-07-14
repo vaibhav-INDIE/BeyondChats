@@ -57,8 +57,8 @@ REDDIT_CLIENT_SECRET=your_reddit_client_secret
 USER_AGENT=YourAppName/1.0
 
 # OpenAI API key (get from [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys))
+
 OPENAI_API_KEY=your_openai_api_key
-⚠️ Important: Do NOT commit your .env file to GitHub. The .gitignore file should be configured to exclude it.
 
 🚀 How to Run
 Run the complete pipeline with a single command:
