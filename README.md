@@ -32,8 +32,6 @@ cd reddit-persona-analyzer
 
 Linux / macOS
 
-Bash
-
 
 python3 -m venv venv
 source venv/bin/activate
@@ -66,8 +64,6 @@ OPENAI_API_KEY=your_openai_api_key
 
 🚀 How to Run
 Run the complete pipeline with a single command:
-
-Bash
 
 python main.py
 You will be prompted to enter the Reddit profile URL you wish to analyze.
