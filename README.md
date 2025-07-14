@@ -27,32 +27,33 @@ This project follows a multi-step pipeline to transform raw Reddit activity into
 #### 1️⃣ Clone the Repository
 git clone [https://github.com/your-username/reddit-persona-analyzer.git](https://github.com/your-username/reddit-persona-analyzer.git)
 cd reddit-persona-analyzer
+
 2️⃣ Create Python Virtual Environment (Optional but Recommended)
+
 Linux / macOS
 
 Bash
+
 
 python3 -m venv venv
 source venv/bin/activate
 Windows
 
-Bash
 
 python -m venv venv
 venv\Scripts\activate
+
 3️⃣ Install Dependencies
-Bash
+
 
 pip install -r requirements.txt
+
 4️⃣ Set Up Environment Variables
 Create a file named .env in the project root directory:
 
-Bash
-
 touch .env
-Add your API keys to the .env file. This keeps your sensitive credentials secure and out of version control.
 
-Ini, TOML
+Add your API keys to the .env file. This keeps your sensitive credentials secure and out of version control.
 
 # Reddit API credentials (create an app at [https://www.reddit.com/prefs/apps](https://www.reddit.com/prefs/apps))
 REDDIT_CLIENT_ID=your_reddit_client_id
