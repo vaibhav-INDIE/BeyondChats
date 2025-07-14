@@ -22,21 +22,6 @@ This project follows a multi-step pipeline to transform raw Reddit activity into
 
 ---
 
-## 📦 Project Structure
-
-project/
-├── scrapper.py         # Scrapes Reddit profile data
-├── db.py               # Builds vector database from Reddit data
-├── profiler.py         # Generates user persona using OpenAI models
-├── report.py           # Generates a professional PDF report
-├── main.py             # Master pipeline script (runs everything)
-├── requirements.txt
-├── .env                # Your API keys (not tracked in git)
-└── README.md
-
-
----
-
 ## ⚙️ Setup Instructions
 
 #### 1️⃣ Clone the Repository
