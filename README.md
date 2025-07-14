@@ -1,5 +1,3 @@
-Markdown
-
 # Reddit Persona Analyzer 🛠️
 
 Generate deep psychological and behavioral personas from Reddit user profiles using OpenAI models. This tool scrapes a user's public activity, analyzes the content using AI, and outputs a professional PDF report summarizing their inferred interests, personality traits, communication style, values, and more.
