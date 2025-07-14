@@ -1,0 +1,6 @@
+praw
+python-dotenv
+openai
+faiss-cpu
+numpy
+reportlab
